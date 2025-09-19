@@ -1,0 +1,24 @@
+1. Clone the repo first (vs code https://github.com/ci-sumi/Learning-Git.git)
+2.To Add Readme file echo "# Learning-Git" >> README.md
+3.git init
+4. git add README.md(git add .)
+5 git status
+6.git commit -m "My first commit"
+[main (root-commit) 4678afc] My First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+7. git branch
+8. git remote -v [which repository you are going to push]
+origin  https://github.com/ci-sumi/Learning-Git.git (fetch)
+origin  https://github.com/ci-sumi/Learning-Git.git (push)
+9. git push -u origin master
+10.git branch cloudbranch(To create new branch)
+11.git checkout cloudchamp(To shift to branch)   git checkout -b cloudchamp
+12.git add .
+13.git status
+14.git commit -m "my 4th version"
+15. git push -u origin cloudchamp
+
+16.Create pull request
+17. Merge pull request
+# Learning-Git
